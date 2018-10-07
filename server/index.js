@@ -17,7 +17,7 @@ let server = app.listen(port, () => {
 });
 
 //Static Files
-app.use(express.static('../'));
+app.use(express.static( __dirname ));
 
 
 //Socket setup
